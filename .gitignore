@@ -8,3 +8,7 @@ Debug
 Release
 
 *.swp
+
+.vs
+bin/
+bin-int/
