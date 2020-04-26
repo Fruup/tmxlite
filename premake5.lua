@@ -3,6 +3,7 @@ project "TmxLite"
 	language "C++"
 	cppdialect "C++17"
 	staticruntime "on"
+	characterset "MBCS"
 
 	targetdir "bin/%{prj.name}/%{cfg.buildcfg}"
 	objdir "bin-int/%{prj.name}/%{cfg.buildcfg}"
